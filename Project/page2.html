@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homez - Listings</title>
+    <link rel="stylesheet" href="page2.css" />
+  </head>
+  <body>
+    <header class="site-header page-header">
+      <div class="brand">
+        <img src="./ASSET 2/logo.jpg" alt="Homez logo" />
+        <span>homez</span>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="HOME PAGE 1.html">Home</a>
+        <a href="page2.html" class="active">Listing</a>
+        <a href="page3.html">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#" class="login-link">Login/Register</a>
+        <a href="#" class="btn btn-dark">Add Property</a>
+      </div>
+    </header>
+
+    <main class="listing-page">
+      <section class="hero-inline">
+        <div>
+          <p class="eyebrow">Explore available homes</p>
+          <h1>Browse premium properties in your favorite neighborhood.</h1>
+        </div>
+        <form class="search-card compact-search">
+          <input type="text" placeholder="Search by city or keyword" />
+          <button type="submit" class="btn btn-accent">Search</button>
+        </form>
+      </section>
+
+      <section class="listing-layout">
+        <div class="listing-main">
+          <div class="filter-row">
+            <span class="pill active">All</span>
+            <span class="pill">For Sale</span>
+            <span class="pill">For Rent</span>
+            <span class="pill">Luxury</span>
+            <span class="pill">Family</span>
+          </div>
+
+          <div class="card-grid two-up">
+            <article class="card listing-card">
+              <img src="./ASSET 1/p2-570x370.jpg.png" alt="Luxury house" />
+              <div class="card-body">
+                <div class="price-row">
+                  <strong>$4,600</strong>
+                  <span class="badge">Featured</span>
+                </div>
+                <h3>Modern house in Hollywood</h3>
+                <p>374 Johnson Ave • 6 beds • 2 baths</p>
+                <a href="#" class="text-link">View details</a>
+              </div>
+            </article>
+
+            <article class="card listing-card">
+              <img src="./ASSET 1/Link.png" alt="Villa green" />
+              <div class="card-body">
+                <div class="price-row">
+                  <strong>$5,800</strong>
+                  <span class="badge">New</span>
+                </div>
+                <h3>Comfortable villa in Brooklyn</h3>
+                <p>178 Broadway • 9 beds • 3 baths</p>
+                <a href="#" class="text-link">View details</a>
+              </div>
+            </article>
+
+            <article class="card listing-card">
+              <img src="./ASSET 1/p9-570x370.jpg.png" alt="Property in Bedford" />
+              <div class="card-body">
+                <div class="price-row">
+                  <strong>$2,500</strong>
+                  <span class="badge">Open house</span>
+                </div>
+                <h3>Quality home for sale</h3>
+                <p>873 Bedford Ave • 10 beds • 2 baths</p>
+                <a href="#" class="text-link">View details</a>
+              </div>
+            </article>
+
+            <article class="card listing-card">
+              <img src="./ASSET 2/city2.jpg.png" alt="Apartment listing" />
+              <div class="card-body">
+                <div class="price-row">
+                  <strong>$3,200</strong>
+                  <span class="badge">Hot</span>
+                </div>
+                <h3>Bright apartment near downtown</h3>
+                <p>212 Market Street • 3 beds • 2 baths</p>
+                <a href="#" class="text-link">View details</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="sidebar-card">
+          <h3>Popular areas</h3>
+          <ul>
+            <li>Los Angeles</li>
+            <li>San Francisco</li>
+            <li>New York</li>
+            <li>Chicago</li>
+          </ul>
+          <h3>Need help?</h3>
+          <p>Our team can help you shortlist homes that fit your budget and preferences.</p>
+          <a href="#" class="btn btn-dark">Talk to an expert</a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer compact-footer">
+      <p>© <span id="year"></span> Homez. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
